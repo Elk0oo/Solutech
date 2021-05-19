@@ -2,7 +2,7 @@
 
 namespace ToUpperV1
 {
-    //Version avec deux méthodes différentes
+    //Version with two methods
     class Program
     {
         static void Main(string[] args)
@@ -13,6 +13,12 @@ namespace ToUpperV1
 
         }
 
+
+        /// <summary>
+        ///Method to upper even letter 
+        /// </summary>
+        /// <param name="value">sentence to update</param>
+        /// <returns>the sentence with the even letters in capitals</returns>
         private static string ToUpperEven(string value)
         {
             string res = string.Empty;
@@ -29,6 +35,12 @@ namespace ToUpperV1
             }
             return res;
         }
+
+        /// <summary>
+        ///Method to upper odd letter 
+        /// </summary>
+        /// <param name="value">sentence to update</param>
+        /// <returns>the sentence with the odd letters in capitals</returns>
         private static string ToUpperOdd(string value)
         {
             string res = string.Empty;

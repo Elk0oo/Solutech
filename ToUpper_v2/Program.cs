@@ -2,7 +2,7 @@
 
 namespace ToUpperV2
 {
-    //Version avec un paramètre supplémentaire et une méthode
+    //Version with a param and one method
     class Program
     {
         static void Main(string[] args)
@@ -13,6 +13,12 @@ namespace ToUpperV2
 
         }
 
+        /// <summary>
+        /// Method to upper even and odd letters 
+        /// </summary>
+        /// <param name="value">sentence to update</param>
+        /// <param name="odd">param to know if we want to upper the odd letters or the even letters</param>
+        /// <returns>the updated sentence</returns>
         private static string ToUpper(string value, bool odd)
         {
             string res = string.Empty;
